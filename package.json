@@ -1,7 +1,6 @@
 {
-  "name": "graphql",
+  "name": "notgraphql",
   "version": "1.0.0",
-  "description": "",
   "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,18 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "express-graphql": "^0.6.12"
-  }
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quanological/gqltest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quanological/gqltest/issues"
+  },
+  "homepage": "https://github.com/quanological/gqltest#readme",
+  "description": ""
 }
